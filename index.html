@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baseball Pinball Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-container">
+            <div id="strikeCounter">Strikes: 0</div>
+            <div id="scoreCounter">Runs: 0</div>
+        </div>
+        <div class="game-board">
+            <!-- Background Image -->
+            <div class="background-image"></div>
+
+            <!-- Bases -->
+            <div class="base" id="home"></div>
+            <div class="base" id="first"></div>
+            <div class="base" id="second"></div>
+            <div class="base" id="third"></div>
+
+            <!-- Holes -->
+            <div class="hole first-base-left"></div>
+            <div class="hole first-base-right"></div>
+            <div class="hole second-base-left"></div>
+            <div class="hole second-base-right"></div>
+            <div class="hole third-base-left"></div>
+            <div class="hole third-base-right"></div>
+            <div class="hole home-run"></div>
+
+            <!-- Ball and Flipper -->
+            <div class="ball" id="ball"></div>
+            <div class="flipper" id="flipper"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
